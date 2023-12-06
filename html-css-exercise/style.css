@@ -6,7 +6,7 @@ div.main-body {
 }
 
 nav#navbar {
-  grid-area: navbar;
+  grid-area: navbar
   position: fixed;
 }
 
