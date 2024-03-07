@@ -1,35 +1,36 @@
-function ContactCard({ name, job, email }) {
-  return (
-    <li className="contact-card">
-      <h2>{name}</h2>
-      <dl>
-        <dt>Job</dt>
-        <dd>{job}</dd>
-        <dt>Email</dt>
-        <dd>{email}</dd>
-      </dl>
-    </li>
-  );
-}
+// CREATE YOUR ContactCard COMPONENT HERE
 
 function App() {
   return (
+    // REPLACE THIS WITH COMPONENTS
     <ul>
-      <ContactCard
-        name="Sunita Kumar"
-        job="Electrical Engineer"
-        email="sunita.kumar@acme.co"
-      />
-      <ContactCard
-        name="Henderson G. Sterling II"
-        job="Receptionist"
-        email="henderson-the-second@acme.co"
-      />
-      <ContactCard
-        name="Aoi Kobayashi"
-        job="President"
-        email="kobayashi.aoi@acme.co"
-      />
+      <li className="contact-card">
+        <h2>John Doe</h2>
+        <dl>
+          <dt>Job</dt>
+          <dd>Electrical Engineer</dd>
+          <dt>Email</dt>
+          <dd>john.doe@acme.co</dd>
+        </dl>
+      </li>
+      <li className="contact-card">
+        <h2>Pedro Penduko II</h2>
+        <dl>
+          <dt>Job</dt>
+          <dd>Receptionist</dd>
+          <dt>Email</dt>
+          <dd>ppenduko@acme.co</dd>
+        </dl>
+      </li>
+      <li className="contact-card">
+        <h2>Billy Boy Magnaye</h2>
+        <dl>
+          <dt>Job</dt>
+          <dd>President</dd>
+          <dt>Email</dt>
+          <dd>bbm@acme.co</dd>
+        </dl>
+      </li>
     </ul>
   );
 }
