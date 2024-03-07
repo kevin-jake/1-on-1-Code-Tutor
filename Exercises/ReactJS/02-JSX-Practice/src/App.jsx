@@ -12,26 +12,30 @@ const message = {
 };
 
 function App() {
-  const profileUrl = `/users/${message.author.handle}`;
+  const profileUrl = // PUT YOUR ANSWER HERE
 
   return (
-    <article style={{ filter: "var(--shadow-elevation-high)" }}>
-      <header>
-        <img
-          alt={message.author.avatarDescription}
-          src={message.author.avatarSrc}
-        />
-        <a href={profileUrl}>{message.author.name}</a>
-      </header>
-      <p>{message.content}</p>
-      <footer>
-        Posted
-        <time dateTime={message.published}>
-          {formatDate(message.published)}
-        </time>
-      </footer>
-    </article>
+    // PUT YOUR JSX CODE HERE
   );
+  /*
+Here's the raw HTML:
+
+<article style="filter: var(--shadow-elevation-high)">
+  <header>
+    <img src="TODO">
+    <a href="">Author name here</a>
+  </header>
+  <p>
+    Message content here
+  </p>
+  <footer>
+    Posted
+    <time datetime="2024-01-01T00:00:00.000Z">
+      January 1st at 12:00am
+    </time>
+  </footer>
+</article>
+*/
 }
 
 export default App;
