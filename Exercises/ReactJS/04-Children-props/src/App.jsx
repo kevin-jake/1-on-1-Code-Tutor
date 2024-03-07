@@ -1,12 +1,15 @@
+// PUT YOUR COMPONENT HERE OR MAKE A NEW COMPONENT FILE AND IMPORT HERE
+
 function App() {
+  // REPLACE THIS WITH COMPONENTS
   return (
     <div>
       <button
         style={{
           border: "2px solid",
-          color: "red",
+          color: "white",
           borderColor: "red",
-          background: "white",
+          background: "red",
           borderRadius: 4,
           padding: 16,
           margin: 8,
@@ -18,8 +21,8 @@ function App() {
         style={{
           border: "2px solid",
           color: "black",
-          borderColor: "black",
-          background: "white",
+          borderColor: "skyblue",
+          background: "skyblue",
           borderRadius: 4,
           padding: 16,
           margin: 8,

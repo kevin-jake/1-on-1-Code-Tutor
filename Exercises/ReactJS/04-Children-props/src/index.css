@@ -30,6 +30,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Wotfard", sans-serif;
 }
 
 /*
@@ -73,4 +74,32 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+/* Custom fonts */
+@font-face {
+  font-family: "Wotfard";
+  src: url("https://sandpack-bundler.vercel.app/fonts/wotfard/wotfard-semibold-webfont.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Wotfard";
+  src: url("https://sandpack-bundler.vercel.app/fonts/wotfard/wotfard-medium-webfont.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Wotfard";
+  src: url("https://sandpack-bundler.vercel.app/fonts/wotfard/wotfard-regular-webfont.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
 }
