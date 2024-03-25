@@ -1,5 +1,3 @@
-import VisuallyHidden from "./VisuallyHidden";
-
 // ADD CONDITIONAL ACCESSIBILITY ON THIS COMPONENT
 
 function Friend({ name, isOnline }) {
@@ -7,7 +5,6 @@ function Friend({ name, isOnline }) {
     <li className="friend">
       {isOnline && <div className="green-dot" />}
       {name}
-      {isOnline && <VisuallyHidden> (Online)</VisuallyHidden>}
     </li>
   );
 }
