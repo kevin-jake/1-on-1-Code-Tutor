@@ -1,0 +1,156 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: hsl(38deg 100% 85%);
+  padding: 16px;
+  --shadow-color: 38deg 46% 58%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.contact-card {
+  padding: 16px;
+  flex: 1;
+  min-width: 275px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0.3px 0.5px 0.4px hsl(var(--shadow-color) / 0.55),
+    0.3px 0.6px 0.5px -0.7px hsl(var(--shadow-color) / 0.48),
+    0.7px 1.5px 1.2px -1.4px hsl(var(--shadow-color) / 0.41),
+    1.9px 3.7px 3.1px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.1px 8.2px 6.9px -2.9px hsl(var(--shadow-color) / 0.28),
+    7.7px 15.4px 12.9px -3.6px hsl(var(--shadow-color) / 0.21),
+    13.2px 26.3px 22.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    20.8px 41.5px 34.8px -5px hsl(var(--shadow-color) / 0.07);
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+dl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+dt {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(38deg 40% 35%);
+}
+dd {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 1.125rem;
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  filter: var(--shadow-elevation-high);
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background: white;
+}
+
+.green-dot {
+  min-width: 12px;
+  min-height: 12px;
+  background: hsl(133deg 80% 50%);
+  border-radius: 1000px;
+  border: 2px solid white;
+  box-shadow: 0px 1px 2px hsl(0deg 0% 0% / 0.2),
+    0px 2px 4px hsl(0deg 0% 0% / 0.1), 0px 4px 8px hsl(0deg 0% 0% / 0.05),
+    0px 8px 16px hsl(0deg 0% 0% / 0.05);
+}
