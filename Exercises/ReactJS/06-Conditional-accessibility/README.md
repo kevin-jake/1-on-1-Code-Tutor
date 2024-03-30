@@ -27,4 +27,4 @@ The trouble is that the `<div class="green-dot">` is semantically meaningless, a
 
 #### Reference:
 
-https://courses.joshwcomeau.com/joy-of-react/01-fundamentals/07.05-conditional-exercises
+https://www.joyofreact.com/

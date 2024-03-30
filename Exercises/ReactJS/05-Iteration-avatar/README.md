@@ -17,4 +17,4 @@ The `Avatar` component with styling in `index.css` is already wired up, but it's
 
 #### Reference:
 
-https://courses.joshwcomeau.com/joy-of-react/01-fundamentals/06.03-iteration-exercises
+https://www.joyofreact.com/

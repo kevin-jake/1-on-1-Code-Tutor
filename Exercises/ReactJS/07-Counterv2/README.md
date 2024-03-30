@@ -22,4 +22,4 @@ Acceptance Criteria:
 
 #### Reference:
 
-https://courses.joshwcomeau.com/joy-of-react/02-state/03.04-use-state-exercises
+https://www.joyofreact.com/
