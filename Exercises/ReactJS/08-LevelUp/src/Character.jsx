@@ -6,17 +6,17 @@ function Character() {
   const [intelligence, setIntelligence] = React.useState(15);
 
   function triggerLevelUp() {
-    setStrength(strength + 1);
-    setDexterity(dexterity + 2);
-    setIntelligence(intelligence + 3);
-
-    // FIX THE BUG HERE
-
+    const str = strength + 1;
+    const dex = dexterity + 2;
+    const int = intelligence + 3;
+    setStrength(str);
+    setDexterity(dex);
+    setIntelligence(int);
     window.alert(`
       Congratulations! Your hero now has the following stats:
-      Str: ${strength}
-      Dex: ${dexterity}
-      Int: ${intelligence}
+      Str: ${str}
+      Dex: ${dex}
+      Int: ${int}
     `);
   }
 
