@@ -17,4 +17,4 @@ A brand-new Button component should be created and used for both buttons. Each B
 
 #### Reference:
 
-https://courses.joshwcomeau.com/joy-of-react/01-fundamentals/03.05-component-exercises
+https://www.joyofreact.com/

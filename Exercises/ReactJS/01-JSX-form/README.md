@@ -15,4 +15,4 @@ The UI should match the screenshot.
 
 #### Reference:
 
-https://courses.joshwcomeau.com/joy-of-react/01-fundamentals/02.05-jsx-exercises
+https://www.joyofreact.com/
