@@ -1,3 +1,4 @@
+import CompleteForm from "./CompleteForm";
 import SearchForm from "./SearchForm";
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
     window.alert(`Searched for: ${searchTerm}`);
   }
 
-  return <SearchForm runSearch={runSearch} />;
+  // return <SearchForm runSearch={runSearch} />;
+  return <CompleteForm />;
 }
 
 export default App;

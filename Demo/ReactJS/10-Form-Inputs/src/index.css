@@ -30,6 +30,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Wotfard", sans-serif;
 }
 
 /*
@@ -78,13 +79,78 @@ h6 {
 .search-form {
   display: flex;
 }
-input,
-button {
-  height: 3rem;
-}
 input {
   flex: 1;
 }
 button {
   padding: 0 24px;
+}
+
+p {
+  margin-top: 2rem;
+  text-align: center;
+}
+p strong {
+  display: block;
+}
+.form-inputs {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 32px;
+}
+form {
+  --bg: hsl(0deg 0% 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+  background: var(--bg);
+  border-radius: 8px;
+}
+input.text {
+  flex: 1;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  font-size: 1rem;
+  padding: 4px 8px;
+}
+
+@font-face {
+  font-family: "Wotfard";
+  src: url("https://sandpack-bundler.vercel.app/fonts/wotfard/wotfard-semibold-webfont.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Wotfard";
+  src: url("https://sandpack-bundler.vercel.app/fonts/wotfard/wotfard-medium-webfont.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Wotfard";
+  src: url("https://sandpack-bundler.vercel.app/fonts/wotfard/wotfard-regular-webfont.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+fieldset {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
 }
