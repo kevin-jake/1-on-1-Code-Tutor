@@ -1,4 +1,4 @@
-# Exercise: LevelUp
+# Exercise: City Picker
 
 > In running this exercise make sure that nodejs is installed on your local machine ([How to install nodejs](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs))
 >
