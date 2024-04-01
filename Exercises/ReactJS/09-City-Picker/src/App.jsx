@@ -14,7 +14,7 @@ import { CITIES } from "./data";
   */
 
 function App() {
-  const [city, setCity] = React.useState("");
+  const [province, setProvince] = React.useState("");
 
   return (
     <form>
@@ -26,7 +26,9 @@ function App() {
         </select>
       </fieldset>
 
-      <p className="city-display">Acronym of city/municipality: {city}</p>
+      <p className="city-display">
+        Acronym of the province of the selected city: {province}
+      </p>
 
       <button>Submit</button>
     </form>
