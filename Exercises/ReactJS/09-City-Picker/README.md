@@ -9,12 +9,12 @@
 
 ## Instructions:
 
-Using the data provided in the `CITY` object, create a `<select>` tag with options for every country. Bind this `<select>` tag to the provided country state variable.
+Using the data provided in the `CITY` object, create a `<select>` tag with options for every city. Bind this `<select>` tag to the provided province state variable.
 
 Acceptance Criteria:
 
 - Use the `CITY` constant to dynamically generate the set of `<option>` elements.
-- The label of the select field should display the city/municipality name and the city `useState` variable should store the acronym of the city/municipality.
+- The label of the select field should display the city/municipality name and the output should display the acronym of the province.
 - There should be a "blank" option, selected by default. It shouldn't default to the first city in the list.
 - The indicator at the bottom should update when the user changes their selected city.
 - No warnings in the dev console

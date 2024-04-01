@@ -14,19 +14,38 @@ import { CITIES } from "./data";
   */
 
 function App() {
-  const [city, setCity] = React.useState("");
+  const [province, setProvince] = React.useState("");
 
   return (
     <form>
       <fieldset>
         <legend>Shipping Info</legend>
         <label htmlFor="city">City:</label>
-        <select id="city" name="city">
-          {/* TODO: PUT YOUR ANSWER HERE! */}
+        <select
+          required
+          id="city"
+          name="city"
+          value={province}
+          onChange={(event) => {
+            setProvince(event.target.value);
+          }}
+        >
+          <option value="">— Select City —</option>
+          <optgroup label="Cities">
+            {CITIES.map(({ name, province }) => {
+              return (
+                <option value={province} key={name}>
+                  {name}
+                </option>
+              );
+            })}
+          </optgroup>
         </select>
       </fieldset>
 
-      <p className="city-display">Acronym of city/municipality: {city}</p>
+      <p className="city-display">
+        Acronym of the province of the selected city: {province}
+      </p>
 
       <button>Submit</button>
     </form>
