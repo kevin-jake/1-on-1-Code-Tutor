@@ -15,9 +15,9 @@ Sample Output:
 
 Acceptance Criteria:
 
--The input's value should be held in React state.
--When the user submits their code, a `window.alert` should let them know whether it's correct or not, by comparing their submitted value with the `CORRECT_CODE` constant.
--A `<form>` tag should be used.
+- The input's value should be held in React state.
+- When the user submits their code, a `window.alert` should let them know whether it's correct or not, by comparing their submitted value with the `CORRECT_CODE` constant.
+- A `<form>` tag should be used.
 
 #### Reference:
 
