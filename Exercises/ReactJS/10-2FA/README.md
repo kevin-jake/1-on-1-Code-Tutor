@@ -9,6 +9,10 @@
 
 ## Instructions:
 
+Sample Output:
+
+![Output](https://s2.ezgif.com/tmp/ezgif-2-693b32e49e.gif)
+
 Acceptance Criteria:
 
 -The input's value should be held in React state.
