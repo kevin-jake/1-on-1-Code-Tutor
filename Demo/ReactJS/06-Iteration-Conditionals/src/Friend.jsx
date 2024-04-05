@@ -8,8 +8,11 @@ function Friend({ name, isOnline }) {
   return (
     // <li className="friend">
     //   {prefix}
+    //   {/* {isOnline && <div className="green-dot" />} */}
     //   {name}
     // </li>
+
+    //
     <li className="friend">
       {if (isOnline) {
         <div className="green-dot" />
@@ -17,7 +20,7 @@ function Friend({ name, isOnline }) {
 
       {name}
     </li>
-  );
+    );
 }
 
 export default Friend;
