@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 function App() {
-  // FIX THE BUG IN THIS CODE
   const [colors, setColors] = useState(["#FFD500", "#FF0040"]);
 
   const colorStops = colors.join(", ");
@@ -29,9 +28,10 @@ function App() {
                 type="color"
                 value={color}
                 onChange={(event) => {
-                  colors[index] = event.target.value;
+                  const nextColors = [...colors];
+                  nextColors[index] = event.target.value;
 
-                  setColors(colors);
+                  setColors(nextColors);
                 }}
               />
             </div>
